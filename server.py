@@ -1,6 +1,7 @@
 # We are using Python's built-in datetime module to ensure every log 
 # entry has an exact timestamp, and we are using the with statement,  
 # which automatically handles opening and safely closing the file even if something crashes.
+# TODO: Implement the KeyValueStore class and in-memory dictionary
 from datetime import datetime
 
 def log_message(message: str):
