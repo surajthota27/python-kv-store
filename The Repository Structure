@@ -1,0 +1,14 @@
+mini-redis/
+│
+├── src/
+│   ├── __init__.py
+│   ├── server.py        # The asyncio TCP server (Phase 3)
+│   ├── engine.py        # The Core Dictionary & LRU logic (Phase 1 & 4)
+│   └── parser.py        # The command parser (Phase 2)
+│
+├── tests/
+│   └── test_engine.py   # Basic unit tests for set/get/delete
+│
+├── .gitignore           # Ignore __pycache__ and environment files
+├── requirements.txt     # Leave empty or list testing tools (pytest)
+└── README.md            # The master document
